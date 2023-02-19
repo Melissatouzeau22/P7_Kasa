@@ -9,9 +9,11 @@ import "../Logements/Logements.css";
 
 const Logementspage = () => {
   const { id } = useParams();
+  /* Trouver le bon logement grâce à son id*/
   const logementDetails = logements.find((logement) => logement.id === id);
 
   if (!logementDetails) {
+    /* Redirection vers la page 404 */
     return <Navigate replace to="/404" />;
   }
 
@@ -32,16 +34,20 @@ const Logementspage = () => {
           <div className="logement_host">
             <span>{logementDetails.host.name}</span>
             <img src={logementDetails.host.picture} alt=""></img>
-            <Rating rate={Number(logementDetails.rating)} base={5} />
           </div>
+          <Rating rate={Number(logementDetails.rating)} base={5} />
         </div>
       </div>
       <div className="logement_collapse">
-        <div className="logement_description">
-          <Collapse title="Description" content={logementDetails.description} />
-        </div>
+        <Collapse title="Description">{logementDetails.description}</Collapse>
         <div className="logement_equipment">
-          <Collapse title="Equipements" content={logementDetails.equipments} />
+          <Collapse title="Equipements">
+            <ul>
+              {logementDetails.equipments.map((equipment, index) => (
+                <li key={index}>{equipment}</li>
+              ))}
+            </ul>
+          </Collapse>
         </div>
       </div>
     </main>

@@ -2,6 +2,8 @@
     height : 225px;
     width : 100%;
     position: relative;
+    margin-top: 20px;
+    margin-bottom:20px;
   }
   
   .backgroundImage {
@@ -21,11 +23,11 @@
   }
  
 .banner_text {
-  text-align: center;
   width : 90%;
   height: 100%;
   display: flex;
   justify-content: center;
+  text-align: center;
   margin-left : 16px;
   }
 
@@ -38,3 +40,24 @@
     font-weight: 500;
     font-size: 48px;
   }
+
+
+/* Media queries */
+
+@media screen and (max-width:900px) {
+  .banner_container {
+     height: 150px;
+  }   
+}
+
+@media screen and (max-width:900px) {
+.banner_text{
+  flex-direction:row;
+  justify-content: start;
+  margin:auto
+}
+.banner_text p{
+font-size: 24px;
+}
+}
+

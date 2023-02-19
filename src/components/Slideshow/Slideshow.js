@@ -24,13 +24,14 @@ function Slideshow(props) {
 
   return (
     <div className="slideshow_container">
-      {props.img.map((picture, index) => {
-        return (
-          <div className="slideshow_photos" key={index}>
-            {index === initialPicture && <img src={picture} alt={props.alt} />}
-          </div>
-        );
-      })}
+      {props.img.map(
+        (picture, index) =>
+          index === initialPicture && (
+            <div className="slideshow_photos" key={index}>
+              <img src={picture} alt={props.alt} />
+            </div>
+          )
+      )}
       {props.img.length > 1 ? (
         <>
           <div className="right_fleche" onClick={nextSlide}>

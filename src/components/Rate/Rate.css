@@ -1,1 +1,16 @@
+.stars{
+    display: flex;
+    justify-content: flex-end ;
+}
 
+.fa-solid.fa-star{
+    color: #FF6060;
+    font-size:22px;
+    font-weight: 900;
+}
+
+
+.fa-solid.fa-star.grey{
+    color:#E3E3E3;
+    font-weight: 900;
+}

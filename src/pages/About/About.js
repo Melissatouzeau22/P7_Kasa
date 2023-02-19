@@ -12,8 +12,8 @@ function About() {
       <main className="about_display">
         {Data.map((item, index) => {
           return (
-            <div className="collapse_display">
-              <Collapse key={index} title={item.title} content={item.text} />
+            <div key={index} className="collapse_display">
+              <Collapse title={item.title}>{item.text}</Collapse>
             </div>
           );
         })}
