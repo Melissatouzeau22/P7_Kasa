@@ -18,3 +18,10 @@
     gap: clamp(20px, 5vw, 60px);
     background-color: #f6f6f6;
 }
+
+ /* Media queries */
+@media screen and (max-width:578px) {
+    .display_card{
+      background-color:#FFFFFF;
+    }
+  } 

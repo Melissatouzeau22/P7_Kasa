@@ -14,3 +14,12 @@
     color:#E3E3E3;
     font-weight: 900;
 }
+
+/* Media queries */
+
+@media screen and(max-width:578px) {
+    .stars{
+        justify-content: start;
+        margin-bottom: 20px;
+        }
+}

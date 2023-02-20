@@ -70,21 +70,27 @@
     display: flex;
     flex-direction: column;
     font-weight: 400;
-    font-size: 18px;
-    
-   
+    font-size: 18px;  
  }
 
  /* Media queries */
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:578px) {
     .logement_details {
       display: flex;
       flex-direction:column;
       gap:10px;
     }   
+
+    .logement_title h1{
+        font-size: 22px;
+    }
+    .logement_title h2{
+        font-size: 16px;
+    }
     .logement_container{
-        padding:35px;
+        padding: 29px;
+        
     }
     .logement_host{
         justify-content: end;

@@ -7,7 +7,7 @@ import "../About/About.css";
 function About() {
   document.title = "Kasa - A propos de nous";
   return (
-    <div>
+    <div className="about_main">
       <Banner img={aboutBackground} />
       <main className="about_display">
         {Data.map((item, index) => {

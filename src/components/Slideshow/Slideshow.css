@@ -63,22 +63,20 @@
 
  /* Media queries */
 
- @media screen and (max-width:900px) {
-    .slideshow_container{
-         height:375px;
-    }
+ @media screen and (max-width:578px) {
     .left_fleche img{
          width: 30px;
-         height: 30px;
-         top:40%
-        
+         height: 30px;    
     }
     .right_fleche img{
         width: 30px;
         height: 30px;
-        top:40%
     }
-    .slideshow_photos{
-        height: 100%;
+    .slideshow_container{
+        height: 270px;
+        width: 335px;
+        object-fit: cover;
     }
-      }
+   }
+   
+      

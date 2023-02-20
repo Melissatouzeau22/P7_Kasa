@@ -37,5 +37,9 @@
 
 
  /* Media queries */
-
+@media screen and (max-width:578px) {
+    .collapse{
+        margin-bottom: 20px;
+    }
+}
 

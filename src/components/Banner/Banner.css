@@ -44,20 +44,20 @@
 
 /* Media queries */
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:578px) {
+ 
   .banner_container {
      height: 150px;
+     border-radius: 10px;
   }   
+  .banner_text{
+    flex-direction: column;
+  }
+  .banner_text p{
+  font-size: 28px;
+  text-align: left;
+  margin:0;
+  } 
 }
 
-@media screen and (max-width:900px) {
-.banner_text{
-  flex-direction:row;
-  justify-content: start;
-  margin:auto
-}
-.banner_text p{
-font-size: 24px;
-}
-}
 
