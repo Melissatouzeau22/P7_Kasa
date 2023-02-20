@@ -30,7 +30,9 @@ i{
     font-size: 14px;
 }
 
-@media screen and(max-width:770px) {
+/* Media queries */
+
+@media screen and (max-width:770px) {
     .footer_container p{
         font-size: 12px;
     }
