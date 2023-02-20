@@ -20,7 +20,7 @@
 }
 
  /* Media queries */
-@media screen and (max-width:578px) {
+@media screen and (max-width:715px) {
     .display_card{
       background-color:#FFFFFF;
     }

@@ -28,7 +28,7 @@
     
 }
 
-/* Host */
+
 
 .logement_host_container{
     margin: 6px 0 16px 0;
@@ -75,30 +75,26 @@
 
  /* Media queries */
 
-@media screen and (max-width:578px) {
-    .logement_details {
-      display: flex;
-      flex-direction:column;
-      gap:10px;
-    }   
-
+@media screen and (max-width:770px) {
+   
     .logement_title h1{
         font-size: 22px;
     }
     .logement_title h2{
         font-size: 16px;
     }
-    .logement_container{
-        padding: 29px;
-        
+
+    .logement_details{
+        flex-direction: column;
     }
-    .logement_host{
-        justify-content: end;
+    .logement_host_container{
+       display:flex;
+       flex-direction: row-reverse;
+       justify-content: space-between;
     }
-    .stars{
-    justify-content: start;
-    margin-bottom: 20px;
-    }
+   .stars{
+    margin-top: 37px;
+   }
     .logement_collapse{
         display: flex;
         flex-direction: column;

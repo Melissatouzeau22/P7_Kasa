@@ -4,7 +4,7 @@ import "../Tag/Tag.css";
 const TagsLogement = (props) => {
   return props.tags.map((tags, index) => {
     return (
-      <span className="logement_tag" key={index}>
+      <span className="tag" key={index}>
         {" "}
         {tags}
       </span>

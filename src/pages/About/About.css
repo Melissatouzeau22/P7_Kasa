@@ -1,9 +1,14 @@
-@media screen and (max-width:578px) {
-    .banner_container{
-        height:223px;
-        border-radius: 10px;
-    }
-    .about_display{
-     margin-bottom: 180px;
+.about_container {
+    height : 225px;
+    width : 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom:20px;
+  }
+
+
+@media screen and (max-width:578px) { 
+    .about_container {
+        height: 223px;
     }
   } 

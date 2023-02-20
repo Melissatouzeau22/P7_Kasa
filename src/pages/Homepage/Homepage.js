@@ -12,6 +12,7 @@ function Homepage() {
         img={backgroundimage}
         text1="Chez vous,"
         text2="partout et ailleurs"
+        className="banner_container"
       />
       <div className="display_card">
         {logements.map((item) => {

@@ -17,9 +17,3 @@
 
 /* Media queries */
 
-@media screen and(max-width:578px) {
-    .stars{
-        justify-content: start;
-        margin-bottom: 20px;
-        }
-}

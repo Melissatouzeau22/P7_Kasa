@@ -63,18 +63,9 @@
 
  /* Media queries */
 
- @media screen and (max-width:578px) {
-    .left_fleche img{
-         width: 30px;
-         height: 30px;    
-    }
-    .right_fleche img{
-        width: 30px;
-        height: 30px;
-    }
+ @media screen and (max-width:770px) {
     .slideshow_container{
         height: 270px;
-        width: 335px;
         object-fit: cover;
     }
    }

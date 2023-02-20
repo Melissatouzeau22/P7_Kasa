@@ -1,6 +1,6 @@
 .footer{
     background:black;
-    height: 209px;
+    min-height: 209px;
     width:100%;
     display:flex;
     justify-content: center;
@@ -28,4 +28,10 @@ i{
     color : #ffffff;
     margin-right: 5px;
     font-size: 14px;
+}
+
+@media screen and(max-width:770px) {
+    .footer_container p{
+        font-size: 12px;
+    }
 }

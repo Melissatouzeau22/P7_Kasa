@@ -35,15 +35,16 @@ nav a.active{
 
 
 /* Media queries */
-@media screen and (max-width:1300px) {
+@media screen and (max-width:770px) {
     header {
         padding:10px
     }   
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:770px) {
   
     nav a {
+      text-transform: uppercase;
       font-size: 12px;
     }
 }

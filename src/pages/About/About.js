@@ -8,7 +8,7 @@ function About() {
   document.title = "Kasa - A propos de nous";
   return (
     <div className="about_main">
-      <Banner img={aboutBackground} />
+      <Banner img={aboutBackground} className="about_container" />
       <main className="about_display">
         {Data.map((item, index) => {
           return (
