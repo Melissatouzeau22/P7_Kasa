@@ -14,7 +14,7 @@ const Logementspage = () => {
 
   if (!logementDetails) {
     /* Redirection vers la page 404 */
-    return <Navigate replace to="/404" />;
+    return <Navigate replace to="/errorPath" />;
   }
 
   return (
